@@ -17,12 +17,18 @@
         android:id="@+id/edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Usuario"
+        android:hint="usuario"
         />
     <EditText
         android:id="@+id/edittext1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="password"
+        />
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chaesoobin"
         />
 </LinearLayout>

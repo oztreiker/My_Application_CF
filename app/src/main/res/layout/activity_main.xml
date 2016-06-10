@@ -13,6 +13,12 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/Saludo_oztreiker" /-->
+    <TextView
+        android:id="@+id/texto"
+        android:text="@string/Saludo_oztreiker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
     <EditText
         android:id="@+id/edittext"
         android:layout_width="match_parent"
@@ -25,10 +31,29 @@
         android:layout_height="wrap_content"
         android:hint="password"
         />
+    <Button
+        android:id="@+id/boton"
+        android:text="@string/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <!--Button
+        android:id="@+id/botonN"
+        android:text="@string/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        /-->
     <ImageView
         android:id="@+id/imagen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/chaesoobin"
+        android:src="@drawable/cartoonme"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/botontoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botontest"
         />
 </LinearLayout>

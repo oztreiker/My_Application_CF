@@ -1,5 +1,6 @@
 package com.example.oztreiker.myapplicationcf;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -55,11 +56,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 Toast.makeText(getApplicationContext(),"SERA QUE SE MUESTRA ESTE TOAST",Toast.LENGTH_LONG).show();
 
                 break;
-            //case R.id.botonN:
+            //scase R.id.botonN:
                 //campo_texto.setText("Boton 2!!!");
                 //break;
             case R.id.botontoast:
-                Toast.makeText(getApplicationContext(),"Esto es un toast de prueba",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(),"Esto es un toast de prueba",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this,Second_Activity.class);
+                startActivity(intent);
                 break;
         }
     }
